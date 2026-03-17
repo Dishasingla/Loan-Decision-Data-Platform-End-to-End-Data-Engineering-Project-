@@ -1,0 +1,5 @@
+REFRESH MATERIALIZED VIEW kpi_total_approvals;
+REFRESH MATERIALIZED VIEW kpi_property_performance;
+REFRESH MATERIALIZED VIEW kpi_credit_performance;
+REFRESH MATERIALIZED VIEW kpi_rule_performance;
+REFRESH MATERIALIZED VIEW kpi_monthly_trend;

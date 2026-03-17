@@ -1,0 +1,4 @@
+ALTER TABLE fact_loan_decisions
+ADD COLUMN valid_from TIMESTAMP,
+ADD COLUMN valid_to TIMESTAMP,
+ADD COLUMN is_current BOOLEAN DEFAULT TRUE;
